@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+  Name: Caiwei Tian
+  Date: Oct 20, 2020
+  Section: CSE 154 AI
+  This is a Know_Yourself game page. This page asks the user to answer
+  5 questions and then gives an analysis of their answers.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Know Yourself</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Get to Know YOURSELF!</h1>
+    </header>
+    <main>
+      <section id="start-page">
+        <p>
+          Don't you want to learn more about yourself? <br>
+          See this 100% accurate analysis of your personality! Give it a try!
+        </p>
+        <p>
+          There are a couple of questions.
+          Select the one that fits you the best!
+        </p>
+        <aside>
+          Tips: Press the 'quit' botton to start a new game.
+        </aside>
+        <h2>Are you READY??</h2>
+        <button id="new-game">Start!</button>
+      </section>
+
+      <section id="game-page" class="hidden">
+        <p>Which one sounds like you?</p>
+        <div id="questions"></div>
+        <section id="options">
+          <button id="choose-a" name="a"></button>
+          <button id="choose-b" name="b"></button>
+          <button id="choose-c" name="c"></button>
+        </section>
+        <section id="pictures"></section>
+        <button id="quit">Quit</button>
+      </section>
+    </main>
+  </body>
+</html>

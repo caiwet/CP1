@@ -1,0 +1,76 @@
+/*
+  Name: Caiwei Tian
+  Date: Oct 21, 2020
+  Section: CSE 154 AI
+  This is the styles.css page for my Know-Yourself game.
+  It is used by all pages of the game.
+*/
+
+body {
+  background-color: lavenderblush;
+  text-align: center;
+}
+
+header > h1 {
+  font-size: 80px;
+  margin-top: 10px;
+  text-shadow: 20px 15px 20px #551755;
+}
+
+#start-page > aside {
+  color: rosybrown;
+  font-size: 20px;
+  font-family: 'Sansita Swashed', serif;
+}
+
+#start-page > p, #questions {
+  font-family: 'Grandstander', cursive;
+}
+
+#game-page > p {
+  font-size: 50px;
+  color: salmon;
+  border: 5px solid gainsboro;
+}
+
+#questions {
+  font-size: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-size: 1.2em;
+  margin: auto;
+  padding: 8px;
+  background-color: mintcream;
+  border: 2pt solid plum;
+  align-self: center;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+}
+
+#options > button {
+  background-color: #551755;
+  color: white;
+  margin: 10px;
+}
+
+#quit {
+  margin: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#pictures > img {
+  width: 500px;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+}
